@@ -1,0 +1,65 @@
+<doctype html>
+    <html>
+        <head>
+            <title>
+                My Website 
+            </title>
+        </head>
+        <body style="background-image: url('https://staging.cohostcdn.org/attachment/8f329acf-046b-44ce-9f44-d3e3a57fee37/image.png?width=675&auto=webp&dpr=1'); background-size: cover;">
+            <h1>
+                Reservations Form
+            </h1>
+            <form accept="action_page.php" method="get">
+                <label>First Name: </label>
+                <input type="text" name="fname" placeholder="First name">
+    
+                <br>
+                <label>Last Name: </label>
+                <input type="text" name="lname" placeholder="Last name">
+    
+                <br>
+                <label>Email: </label>
+                <input type="email" name="Email" placeholder="Email">
+
+                <br>
+                <label>Phone Number: </label>
+                <input type="number" name="PhoneNum" placeholder="Phone Number">
+                
+                <br>
+                <input type="date">
+            
+                <br>
+                <input type="submit" name="submit" placeholder="submit">
+                
+            </form>
+            <table>
+                <tr bgcolor=" gray">
+                    <th> Category </th>
+                    <td colspan="2" style="text-align: center;"> Food </td>
+                    <th> Price (in Rp)</th>
+                </tr>
+                <tr bgcolor=" white">
+                    <th rowspan="2" bgcolor="lightgray"> Desserts </th>
+                    <th> Vanilla Ice Cream </th>
+                    <th>  </th>
+                    <th> 20k </th>
+                </tr>
+                <tr bgcolor=" white">
+                    <th> Coffee pudding </th>
+                    <th>  </th>
+                    <th> 30k </th>
+                </tr>
+                <tr bgcolor=" white">
+                    <th rowspan="3" bgcolor="lightgray"> Main Course </th>
+                    <th> Curry Udon </th>
+                    <th>  </th>
+                    <th> 75k </th>
+                </tr>
+                <tr bgcolor="white">
+                    <th> Curry Rice </th>
+                    <th>  </th>
+                    <th> 65k </th>
+                </tr>
+            </table>
+        </body>
+    </html>
